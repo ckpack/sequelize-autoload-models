@@ -32,7 +32,7 @@ modules.exports = user;
 ```javascript
 const path = require('path');
 const { Sequelize } = require('sequelize');
-const autoloadModels = require('@c_kai/sequelize-autoload');
+const autoloadModels = require('@ckpack/sequelize-autoload-models');
 
 
 let sequelize = new Sequelize('postgres://postgres:postgres@localhost:5432/dbname');
